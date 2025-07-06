@@ -3,7 +3,7 @@
 Task Overview
 This task involves creating a students database, inserting data with some NULL values, updating records with missing values, and deleting records with missing data.
 
-Database students
+Database mini_attendence
 The database schema consists of two tables: `students` and `attendance`.
 
 Students Table
