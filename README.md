@@ -1,26 +1,39 @@
 # Inserting-data-and-null-handling
-Student Management System - SQL
 
-A simple SQL-based project to manage students, faculty, departments, courses, enrollments, and marks.
+Task Overview
+This task involves creating a database, inserting data with some NULL values, updating records with missing values, and deleting records with missing data.
 
-Features
+Database Schema
+The database schema consists of two tables: `students` and `attendance`.
 
-- Insert records (with `NULL` handling)
-- Update incomplete records
-- Delete data conditionally
-- Demonstrates real-world SQL use
+Students Table
+- `student_id` (primary key)
+- `name`
+- `email`
 
-Tables
+Attendance Table
+- `attendance_id` (primary key)
+- `student_id` (foreign key referencing `students`)
+- `date`
+- `status` (ENUM('Present', 'Absent') with default value 'Absent')
 
-- departments
-- faculty
-- students
-- courses
-- enrollments
-- marks
+SQL Queries
+Create Database and Tables
+The database and tables are created using the following SQL queries.
 
- SQL Operations
+Insert Data with NULL Values
+Sample data is inserted into the tables, including some NULL values.
 
-- `INSERT` with missing values
-- `UPDATE` to fix incomplete data
-- `DELETE` based on `NULL` conditions
+Update Records with Missing Values
+Records with missing values are updated using the UPDATE statement.
+
+Delete Records with Missing Data
+Records with missing data are deleted using the DELETE statement.
+
+Learning Outcome
+This task helps you understand how to:
+
+- Create a database and tables
+- Insert data with NULL values
+- Update records with missing values
+- Delete records with missing data
