@@ -1,4 +1,4 @@
-Students and Courses – SQL DML Practice
+## Students and Courses – SQL DML Practice
 
 ## Objective
 
