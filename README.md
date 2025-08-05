@@ -14,7 +14,7 @@ Practice *Data Manipulation Language (DML)* operations such as INSERT, UPDATE, a
 * EMAIL
 * CITY
 
-### 📚 Courses
+### Courses
 
 * COURSE_ID
 * COURSE_NAME
